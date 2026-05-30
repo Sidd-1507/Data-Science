@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Data — downloaded at runtime via kagglehub
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.xlsx
+
+# Outputs — generated at runtime
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+outputs/*.pkl
+outputs/*.joblib
+
+# Kaggle credentials — NEVER commit these
+kaggle.json
+.kaggle/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
