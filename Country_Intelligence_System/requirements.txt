@@ -1,0 +1,31 @@
+# ============================================================
+# Country Intelligence System — Python Dependencies
+# ============================================================
+# Install with: pip install -r requirements.txt
+# Python >= 3.10 recommended
+
+# ── Core Data Science ────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ── Machine Learning ─────────────────────────────────────────
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# ── Visualisation ────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Jupyter ──────────────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+
+# ── Kaggle (optional — for dataset download) ─────────────────
+# kaggle>=1.5.0
+# kagglehub>=0.2.0
+
+# ── Utilities ────────────────────────────────────────────────
+tqdm>=4.65.0

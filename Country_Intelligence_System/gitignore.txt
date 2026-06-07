@@ -1,0 +1,58 @@
+# ============================================================
+# .gitignore — Country Intelligence System
+# ============================================================
+
+# ── Data Files (download separately from Kaggle) ─────────────
+data/
+*.csv
+*.xlsx
+*.json
+
+# ── Jupyter Notebook Checkpoints ─────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python Bytecode ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ── Distribution / Packaging ─────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── IDE & Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ── Logs & Outputs ───────────────────────────────────────────
+*.log
+outputs/
+logs/
+
+# ── Kaggle API ───────────────────────────────────────────────
+kaggle.json
+.kaggle/
+
+# ── Model Artefacts ──────────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+models/
