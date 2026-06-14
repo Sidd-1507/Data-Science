@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+venv/
+env/
+.env/
+
+# Data (too large for GitHub — loaded automatically by Keras)
+*.tar.gz
+*.pkl
+data/
+
+# Model weights (use releases or HuggingFace Hub for large files)
+*.h5
+*.pb
+saved_model/
+
+# Generated outputs (re-created on notebook run)
+outputs/
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
