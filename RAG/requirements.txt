@@ -1,0 +1,10 @@
+sentence-transformers>=2.6.0
+faiss-cpu>=1.7.4
+pypdf>=4.0.0
+transformers>=4.40.0
+torch>=2.1.0
+
+# Optional - only needed if you want to use a hosted LLM instead of
+# the free local model. The system auto-detects whichever key is set.
+anthropic>=0.25.0
+openai>=1.0.0
