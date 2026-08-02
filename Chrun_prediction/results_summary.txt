@@ -1,0 +1,33 @@
+CUSTOMER CHURN PREDICTION - RESULTS SUMMARY
+==================================================
+
+Dataset: 7043 customers, 20 features
+Overall churn rate: 26.54%
+
+Logistic Regression:
+  Accuracy:  0.799
+  Precision: 0.643
+  Recall:    0.548
+  F1 Score:  0.592
+  ROC-AUC:   0.840
+
+Random Forest:
+  Accuracy:  0.805
+  Precision: 0.676
+  Recall:    0.508
+  F1 Score:  0.580
+  ROC-AUC:   0.841
+
+Best model: Random Forest
+
+Top predictive features:
+  tenure: 0.1660
+  Contract: 0.1648
+  TotalCharges: 0.1303
+  MonthlyCharges: 0.1208
+  OnlineSecurity: 0.1002
+  TechSupport: 0.0731
+  InternetService: 0.0532
+  PaymentMethod: 0.0383
+  OnlineBackup: 0.0303
+  PaperlessBilling: 0.0226
